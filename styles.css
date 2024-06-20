@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    margin: 0;
+}
+
+.metaball-container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    border: 5px solid #fff;
+    border-radius: 8px;
+}
+
+.metaball {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation: move 4s infinite;
+    mix-blend-mode: screen;
+    filter: blur(5px); /* Blur effect to create the gooey effect */
+}
+
+.metaball:nth-child(1) {
+    background: radial-gradient(circle, #61dafb, #282c34);
+    animation-delay: 0s;
+    top: 50px;
+    left: 50px;
+}
+
+.metaball:nth-child(2) {
+    background: radial-gradient(circle, #ff6347, #282c34); /* Tomato */
+    animation-delay: 0.5s;
+    top: 100px;
+    left: 150px;
+}
+
+.metaball:nth-child(3) {
+    background: radial-gradient(circle, #32cd32, #282c34); /* Lime Green */
+    animation-delay: 1s;
+    top: 200px;
+    left: 250px;
+}
+
+.metaball:nth-child(4) {
+    background: radial-gradient(circle, #ffa500, #282c34); /* Orange */
+    animation-delay: 1.5s;
+    top: 300px;
+    left: 350px;
+}
+
+.metaball:nth-child(5) {
+    background: radial-gradient(circle, #ff69b4, #282c34); /* Hot Pink */
+    animation-delay: 2s;
+    top: 150px;
+    left: 100px;
+}
+
+.metaball:nth-child(6) {
+    background: radial-gradient(circle, #1e90ff, #282c34); /* Dodger Blue */
+    animation-delay: 2.5s;
+    top: 250px;
+    left: 200px;
+}
+
+.metaball:nth-child(7) {
+    background: radial-gradient(circle, #9370db, #282c34); /* Medium Purple */
+    animation-delay: 3s;
+    top: 350px;
+    left: 300px;
+}
+
+.metaball:nth-child(8) {
+    background: radial-gradient(circle, #ffd700, #282c34); /* Gold */
+    animation-delay: 3.5s;
+    top: 50px;
+    left: 250px;
+}
+
+@keyframes move {
+    0%, 100% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(200px, 100px);
+    }
+    50% {
+        transform: translate(100px, 200px);
+    }
+    75% {
+        transform: translate(-200px, -100px);
+    }
+}
