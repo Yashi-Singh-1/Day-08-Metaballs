@@ -27,7 +27,7 @@
 
 <h2 id="preview">Preview</h2>
 <p>Here is a preview of the unique Metaballs effect:</p>
-<img src="preview.png" alt="Metaballs Preview">
+<img src="Preview.png" alt="Metaballs Preview">
 
 <h2 id="installation">Installation</h2>
 <p>To set up the Metaballs effect in your project:</p>
@@ -76,4 +76,4 @@ cd Day-08-Metaballs
 <h2 id="contact">Contact</h2>
 <p>LinkedIn: Yashi Singh https://www.linkedin.com/in/yashi-singh-b4143a246</p>
 
-<p>Feel free to customize and expand upon this project according to your requirements. Enjoy exploring and experimenting with the Metaballs effect using CSS filters!</p>A
+<p>Feel free to customize and expand upon this project according to your requirements. Enjoy exploring and experimenting with the Metaballs effect using CSS filters!</p>
