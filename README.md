@@ -74,6 +74,6 @@ cd Day-08-Metaballs
 <p>We will review your pull request and merge it if everything is in order. Thank you for contributing!</p>
 
 <h2 id="contact">Contact</h2>
-<p>LinkedIn: <a href="https://www.linkedin.com/in/yashi-singh-b4143a246">Yashi Singh</a></p>
+<p>LinkedIn: Yashi Singh https://www.linkedin.com/in/yashi-singh-b4143a246</p>
 
 <p>Feel free to customize and expand upon this project according to your requirements. Enjoy exploring and experimenting with the Metaballs effect using CSS filters!</p>A
